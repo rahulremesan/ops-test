@@ -1,0 +1,1140 @@
+import 'package:auto_size_text/auto_size_text.dart';
+import 'package:flutter/material.dart';
+import 'package:styria_flutter_web/design_system/theme/custom_typography.dart';
+
+class TypographyGuide extends StatelessWidget {
+  const TypographyGuide({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final customTypography = Theme.of(context).extension<CustomTypography>() ??
+        CustomTypography.light;
+
+    return SingleChildScrollView(
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          AutoSizeText(
+            'H1 - Regular',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            'The quick brown fox jumps over the lazy dog.',
+            maxFontSize: customTypography.h1Regular.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h1Regular.fontFamily,
+              fontSize: customTypography.h1Regular.fontSize,
+              fontWeight: customTypography.h1Regular.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'H1 - Medium',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.h1Medium.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h1Medium.fontFamily,
+              fontSize: customTypography.h1Medium.fontSize,
+              fontWeight: customTypography.h1Medium.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'H1 - Bold',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.h1Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h1Bold.fontFamily,
+              fontSize: customTypography.h1Bold.fontSize,
+              fontWeight: customTypography.h1Bold.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'H2 - Regular',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.h2Regular.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h2Regular.fontFamily,
+              fontSize: customTypography.h2Regular.fontSize,
+              fontWeight: customTypography.h2Regular.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'H2 - Medium',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.h2Medium.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h2Medium.fontFamily,
+              fontSize: customTypography.h2Medium.fontSize,
+              fontWeight: customTypography.h2Medium.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'H2 - Bold',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.h2Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h2Bold.fontFamily,
+              fontSize: customTypography.h2Bold.fontSize,
+              fontWeight: customTypography.h2Bold.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'H3 - Medium',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.h3Medium.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h3Medium.fontFamily,
+              fontSize: customTypography.h3Medium.fontSize,
+              fontWeight: customTypography.h3Medium.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'H3 - Regular',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.h3Regular.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h3Regular.fontFamily,
+              fontSize: customTypography.h3Regular.fontSize,
+              fontWeight: customTypography.h3Regular.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'H3 - Bold',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.h3Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h3Bold.fontFamily,
+              fontSize: customTypography.h3Bold.fontSize,
+              fontWeight: customTypography.h3Bold.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'H4 - Medium',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.h4Medium.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h4Medium.fontFamily,
+              fontSize: customTypography.h4Medium.fontSize,
+              fontWeight: customTypography.h4Medium.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'H4 - Regular',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.h4Regular.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h4Regular.fontFamily,
+              fontSize: customTypography.h4Regular.fontSize,
+              fontWeight: customTypography.h4Regular.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'H4 - Bold',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.h4Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h4Bold.fontFamily,
+              fontSize: customTypography.h4Bold.fontSize,
+              fontWeight: customTypography.h4Bold.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'H5 - Medium',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.h5Medium.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Medium.fontFamily,
+              fontSize: customTypography.h5Medium.fontSize,
+              fontWeight: customTypography.h5Medium.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'H5 - Regular',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.h5Regular.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Regular.fontFamily,
+              fontSize: customTypography.h5Regular.fontSize,
+              fontWeight: customTypography.h5Regular.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'H5 - Bold',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'Body 1 - Medium',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.body1Medium.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.body1Medium.fontFamily,
+              fontSize: customTypography.body1Medium.fontSize,
+              fontWeight: customTypography.body1Medium.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'Body 1 - Regular',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.body1Regular.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.body1Regular.fontFamily,
+              fontSize: customTypography.body1Regular.fontSize,
+              fontWeight: customTypography.body1Regular.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'Body 1 - Bold',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.body1Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.body1Bold.fontFamily,
+              fontSize: customTypography.body1Bold.fontSize,
+              fontWeight: customTypography.body1Bold.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'Body 2 - Medium',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.body2Medium.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.body2Medium.fontFamily,
+              fontSize: customTypography.body2Medium.fontSize,
+              fontWeight: customTypography.body2Medium.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'Body 2 - Regular',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.body2Regular.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.body2Regular.fontFamily,
+              fontSize: customTypography.body2Regular.fontSize,
+              fontWeight: customTypography.body2Regular.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'Body 2 - Bold',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.body2Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.body2Bold.fontFamily,
+              fontSize: customTypography.body2Bold.fontSize,
+              fontWeight: customTypography.body2Bold.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'Body 3 - Regular',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.body3Regular.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.body3Regular.fontFamily,
+              fontSize: customTypography.body3Regular.fontSize,
+              fontWeight: customTypography.body3Regular.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'Body 3 - Medium',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.body3Medium.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.body3Medium.fontFamily,
+              fontSize: customTypography.body3Medium.fontSize,
+              fontWeight: customTypography.body3Medium.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'Body 3 - Bold',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.body3Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.body3Bold.fontFamily,
+              fontSize: customTypography.body3Bold.fontSize,
+              fontWeight: customTypography.body3Bold.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'Body 4 - Regular',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.body4Regular.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.body4Regular.fontFamily,
+              fontSize: customTypography.body4Regular.fontSize,
+              fontWeight: customTypography.body4Regular.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'Body 4 - Medium',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.body4Medium.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.body4Medium.fontFamily,
+              fontSize: customTypography.body4Medium.fontSize,
+              fontWeight: customTypography.body4Medium.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'Body 4 - Bold',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.body4Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.body4Bold.fontFamily,
+              fontSize: customTypography.body4Bold.fontSize,
+              fontWeight: customTypography.body4Bold.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'Button 1 - Regular',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.button1Regular.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.button1Regular.fontFamily,
+              fontSize: customTypography.button1Regular.fontSize,
+              fontWeight: customTypography.button1Regular.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'Button 1 - Medium',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.button1Medium.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.button1Medium.fontFamily,
+              fontSize: customTypography.button1Medium.fontSize,
+              fontWeight: customTypography.button1Medium.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'Button 1 - Bold',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.button1Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.button1Bold.fontFamily,
+              fontSize: customTypography.button1Bold.fontSize,
+              fontWeight: customTypography.button1Bold.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'Caption 1 - Regular',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.caption1Regular.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.caption1Regular.fontFamily,
+              fontSize: customTypography.caption1Regular.fontSize,
+              fontWeight: customTypography.caption1Regular.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'Caption 1 - Medium',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.caption1Medium.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.caption1Medium.fontFamily,
+              fontSize: customTypography.caption1Medium.fontSize,
+              fontWeight: customTypography.caption1Medium.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'Caption 1 - Bold',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxFontSize: customTypography.caption1Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.caption1Bold.fontFamily,
+              fontSize: customTypography.caption1Bold.fontSize,
+              fontWeight: customTypography.caption1Bold.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'Caption 2 - Regular',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.caption2Regular.fontFamily,
+              fontSize: customTypography.caption2Regular.fontSize,
+              fontWeight: customTypography.caption2Regular.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'Caption 2 - Medium',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.caption2Medium.fontFamily,
+              fontSize: customTypography.caption2Medium.fontSize,
+              fontWeight: customTypography.caption2Medium.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'Caption 2 - Bold',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.caption2Bold.fontFamily,
+              fontSize: customTypography.caption2Bold.fontSize,
+              fontWeight: customTypography.caption2Bold.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'Title 1 - Bold',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.title1Bold.fontFamily,
+              fontSize: customTypography.title1Bold.fontSize,
+              fontWeight: customTypography.title1Bold.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'Title 1 - Regular',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.title1Regular.fontFamily,
+              fontSize: customTypography.title1Regular.fontSize,
+              fontWeight: customTypography.title1Regular.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'Title 2 - Bold',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.title2Bold.fontFamily,
+              fontSize: customTypography.title2Bold.fontSize,
+              fontWeight: customTypography.title2Bold.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'Title 3 - Bold',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.title3Bold.fontFamily,
+              fontSize: customTypography.title3Bold.fontSize,
+              fontWeight: customTypography.title3Bold.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'Title 4 - SemiBold',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.title4SemiBold.fontFamily,
+              fontSize: customTypography.title4SemiBold.fontSize,
+              fontWeight: customTypography.title4SemiBold.fontWeight,
+            ),
+          ),
+          const Divider(
+            height: 50,
+            thickness: 1,
+            indent: 0,
+            endIndent: 0,
+            color: Colors.black,
+          ),
+          AutoSizeText(
+            'Subtitle 1',
+            maxFontSize: customTypography.h5Bold.fontSize!.toDouble(),
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.h5Bold.fontFamily,
+              fontSize: customTypography.h5Bold.fontSize,
+              fontWeight: customTypography.h5Bold.fontWeight,
+            ),
+          ),
+          AutoSizeText(
+            "The quick brown fox jumps over the lazy dog.",
+            maxLines: 1,
+            style: TextStyle(
+              fontFamily: customTypography.subTitle1.fontFamily,
+              fontSize: customTypography.subTitle1.fontSize,
+              fontWeight: customTypography.subTitle1.fontWeight,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}

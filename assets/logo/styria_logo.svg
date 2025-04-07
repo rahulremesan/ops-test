@@ -1,0 +1,9 @@
+<svg id="StyriaLogo_Full" xmlns="http://www.w3.org/2000/svg" width="127" height="40" viewBox="0 0 127 40">
+  <g id="Group_9648" data-name="Group 9648">
+    <g id="Layer_1" data-name="Layer 1">
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="20" cy="20" r="20" fill="#fff"/>
+    </g>
+    <path id="Path_1188" data-name="Path 1188" d="M12.474,21.65,9.866,10.038a3.8,3.8,0,0,0-1.135-1.97L0,0,11.339,3.543a3.8,3.8,0,0,0,2.27,0L24.95,0,16.217,8.069a3.809,3.809,0,0,0-1.135,1.97Z" transform="translate(32.327 29.168) rotate(180)" fill="#4d33b7"/>
+  </g>
+  <text id="STYRIA" transform="translate(46 27.999)" fill="#fff" font-size="24" font-family="Lato-Medium, Lato" font-weight="500"><tspan x="0" y="0">STYRIA</tspan></text>
+</svg>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "34158360988",
+    "project_id": "styria-9a1d7",
+    "storage_bucket": "styria-9a1d7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34158360988:android:19a12cbb992583a0b33059",
+        "android_client_info": {
+          "package_name": "com.tarento.styria"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3zSwdwXMqNxj86bjLX0z7gS5G0Fs05JQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34158360988:android:1123f7cd4a77712fb33059",
+        "android_client_info": {
+          "package_name": "com.tarento.styria.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3zSwdwXMqNxj86bjLX0z7gS5G0Fs05JQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
