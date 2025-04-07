@@ -26,11 +26,6 @@
 
 ### Project Setup
 
-1. Clone project
-
-    > **SSH** ssh://git@git.idc.tarento.com:nxt/styria/flutter/styria-flutter-web.git
-
-    > **HTTPS** https://git.idc.tarento.com/nxt/styria/flutter/styria-flutter-web.git
 
 2. Navigate to **styria-flutter-web** folder
 
